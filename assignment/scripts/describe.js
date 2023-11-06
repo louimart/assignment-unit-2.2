@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create variable "name" with value of 'Dane'
+// Check if variable name equals to value of 'Mary'
+// If the above evaualtes to True, we console.log 'Hi, Mary!'
+// Since the above evaluates to False (name does not equal 'Mary'), we execute the else code block and console log 'How do you do?' as the output
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create variable secret with no assigned value.
+// Create variable code with value of 123.
+// Check if variable code equals 123.
+// Since the above evaluates to true, variable secret is assigned 'super' and value of code is doubled.
+// Check if value of code is greater than 250. Since value of code is assigned 246 in the previous code block, this evaluates to False and the following code block is not executed.
+// We console log 'super' as the output.
 
 //CODE
 /*
@@ -70,10 +72,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create variable isStudent and assign boolean value of True.
+// Create variable age and set value to 34.
+// Create variable zip and set value to 55407.
+// Check if both value of isStudent is 'true' and value of zip is greater than 80000.
+// isStudent is 'true', but zip is not greater than 80000, the code block is not executed and the following else...if statement is evaluated. 
+// Check if one of the following in the -or- statement evaluates to true. Since both isStudent does not equal false and age is not less than 30, the code block is not executed and the following else...if statement is evaluated. 
+// Check if isStudent equals to 'true'. Since this evaluates to true, the code block is executed and we console log 'Welcome to Prime!' as the output. 
+// The following else code block will not be evaluated.
 
 //CODE
 /*
@@ -130,12 +136,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - Assign 'blue' to colorOne as indicated in the instructions.
 let colorOne = 'red';
+// FIX - Assign 'red' to colorTwo as indicated in the instructions.
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX - add a missing line at the end... colorTwo = 'purple';
 }
 */
 
@@ -145,8 +154,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - change const to let, code will function as is but let will allow for changing values of time in the real world.
 const time = 4;
 
+// FIX - replace || with &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,9 +171,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - revise to if(age >= minAge) as indicated in the instructions.
 if(minAge <= age) {
+// FIX - revise to console.log('enter'); as the condition would evaluate to TRUE (age greater than or equal to minAge) which would suggest being of age and granted entry.
   console.log('no entry');
 } else {
+// FIX - revise to console.log('no entry'); since an age NOT greater than or equal to minAge would suggest underage and no entry.
   console.log('enter');
 }
 */
